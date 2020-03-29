@@ -1,0 +1,2 @@
+test
+-DCATKIN_DEVEL_PREFIX=/home/eastwind/Desktop/python_quadrotor/devel -DCMAKE_INSTALL_PREFIX=/home/eastwind/Desktop/python_quadrotor/install -G Unix Makefiles
