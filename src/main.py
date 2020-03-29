@@ -1,63 +1,67 @@
-import rospy, time
+import rospy, time, sched
 from std_msgs.msg import String
-# import hardware_interface
+import hardware_interface as hardware_interface
+import control_system as control_system
 # import game_controller
 import multiprocessing as mp
 
+
+'''
+Example ROS code:
+https://github.com/jnez71/lqRRT/blob/master/demos/lqrrt_ros/nodes/lqrrt_node.py
+'''
 class Clockwork_Core(object):
     def __init__(self):
-        #---ROS Node
+        #--- ROS Node
+        # Make sure roscore is running 
+        # Initialize core node 
         rospy.init_node('clockwork_core', anonymous=True)
-        
-        #start subsystems
-        # self.start_subsystem()
-    
-        #---ROS Subscribers
+
+        #--- initialize scheduler        
+        self.schedule = sched.scheduler(time.time, time.sleep) 
+
+        #--- initialize modules
+        self.interface = hardware_interface.Hardware_Interface()
+        self.controller = control_system.Control_Systems()
+
+        #--- initialize subscribers
         #sub to the gamepad controller node
-        self.g_controller_sub = rospy.Subscriber("hardware_interface", String, self.callback1)
-        #sub to the hardware interface node
-        self.h_interface_sub = rospy.Subscriber("game_controller", String, self.callback2)
-        
+        self.g_controller_sub = rospy.Subscriber("game_controller", String, self.callback1)        
+
+        #--- Populate default scheduler
+        self.schedule_default()
 
     def callback1(self, data):
         # print(data)
         rospy.loginfo(rospy.get_caller_id() + "I heard %s", data.data)
 
-    def callback2(self, data):
-        # print(data)
-        rospy.loginfo(rospy.get_caller_id() + "I heard %s", data.data)
+    def schedule_default(self):
+        '''
+        Populates the scehedule with priority 1 actions:
+        - interface action
+        '''
+        self.schedule.enterabs(time = time.time(), priority = 1, action = self.interface.change_led)
+        self.schedule.enterabs(time = time.time(), priority = 1, action = self.interface.set_motor_pwm)
+        self.schedule.enterabs(time = time.time(), priority = 1, action = self.controller.control_update)
 
-    def Run(self):
-        # while True: 
-        #     print('here')
-        # # rospy.spin()
-        pass
-
-    
-def system_init():
-    # 
-    pass
-
-def main():
-    # jobs = []
-
-    CC = Clockwork_Core()
-    # cw_proc = mp.Process(target = CC.Run(),name='GC process')
-    # # gc_proc = mp.Process(target = game_controller.talker(),name='GC process')
-    # # hi_proc = mp.Process(target = hardware_interface.hi_talker(),name='GC process')
-    
-    # # jobs.append(cw_proc,gc_proc,hi_proc)
-    # print('starting process')
-    # hi_proc.start()
-    # gc_proc.start()
-    # cw_proc.start()
-    # cw_proc.join()
-    # gc_proc.join()
-    # hi_proc.join()
-    # Clockwork_Core()
-    if not rospy.is_shutdown():
-        rospy.spin()
+    def main(self):
+        '''
+        Operating loop 
+        
+        '''
+        #while the scheduler is not empty
+        while not self.schedule.empty():
+            #run scheduled events
+            self.schedule.run()
+            
+            #populate the scheduler with default task
+            self.schedule_default()
 
 if __name__ == '__main__':
-    main()
-#clockwork_quadrotor
+    if rospy.is_shutdown():
+        print('rosok')
+        print('roscore is not running, please start roscore...')
+        exit()
+    else:
+        core = Clockwork_Core()
+        core.main()
