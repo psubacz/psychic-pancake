@@ -131,7 +131,8 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/eastwind/Desktop/python_quadrotor/build/gtest/cmake_install.cmake")
-  include("/home/eastwind/Desktop/python_quadrotor/build/test/cmake_install.cmake")
+  include("/home/eastwind/Desktop/python_quadrotor/build/game_controller/cmake_install.cmake")
+  include("/home/eastwind/Desktop/python_quadrotor/build/hardware_interface/cmake_install.cmake")
 
 endif()
 

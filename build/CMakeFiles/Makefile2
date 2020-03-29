@@ -405,516 +405,534 @@ clean: gtest/googlemock/gtest/CMakeFiles/gtest.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory test
+# Directory level rules for directory game_controller
 
 # Convenience name for "all" pass in the directory.
-test/all:
+game_controller/all:
 
-.PHONY : test/all
+.PHONY : game_controller/all
 
 # Convenience name for "clean" pass in the directory.
-test/clean: test/CMakeFiles/roscpp_generate_messages_py.dir/clean
-test/clean: test/CMakeFiles/roscpp_generate_messages_eus.dir/clean
-test/clean: test/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
-test/clean: test/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
-test/clean: test/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
-test/clean: test/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
-test/clean: test/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
-test/clean: test/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
-test/clean: test/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
-test/clean: test/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
-test/clean: test/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
-test/clean: test/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
-test/clean: test/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
-test/clean: test/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
-test/clean: test/CMakeFiles/std_msgs_generate_messages_py.dir/clean
+game_controller/clean: game_controller/CMakeFiles/roscpp_generate_messages_py.dir/clean
+game_controller/clean: game_controller/CMakeFiles/roscpp_generate_messages_eus.dir/clean
+game_controller/clean: game_controller/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
+game_controller/clean: game_controller/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
+game_controller/clean: game_controller/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
+game_controller/clean: game_controller/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
+game_controller/clean: game_controller/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
+game_controller/clean: game_controller/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
+game_controller/clean: game_controller/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
+game_controller/clean: game_controller/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
+game_controller/clean: game_controller/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
+game_controller/clean: game_controller/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
+game_controller/clean: game_controller/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
+game_controller/clean: game_controller/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
+game_controller/clean: game_controller/CMakeFiles/std_msgs_generate_messages_py.dir/clean
 
-.PHONY : test/clean
+.PHONY : game_controller/clean
 
 # Convenience name for "preinstall" pass in the directory.
-test/preinstall:
+game_controller/preinstall:
 
-.PHONY : test/preinstall
+.PHONY : game_controller/preinstall
 
 #=============================================================================
-# Target rules for target test/CMakeFiles/roscpp_generate_messages_py.dir
+# Target rules for target game_controller/CMakeFiles/roscpp_generate_messages_py.dir
 
 # All Build rule for target.
-test/CMakeFiles/roscpp_generate_messages_py.dir/all:
-	$(MAKE) -f test/CMakeFiles/roscpp_generate_messages_py.dir/build.make test/CMakeFiles/roscpp_generate_messages_py.dir/depend
-	$(MAKE) -f test/CMakeFiles/roscpp_generate_messages_py.dir/build.make test/CMakeFiles/roscpp_generate_messages_py.dir/build
+game_controller/CMakeFiles/roscpp_generate_messages_py.dir/all:
+	$(MAKE) -f game_controller/CMakeFiles/roscpp_generate_messages_py.dir/build.make game_controller/CMakeFiles/roscpp_generate_messages_py.dir/depend
+	$(MAKE) -f game_controller/CMakeFiles/roscpp_generate_messages_py.dir/build.make game_controller/CMakeFiles/roscpp_generate_messages_py.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eastwind/Desktop/python_quadrotor/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_py"
-.PHONY : test/CMakeFiles/roscpp_generate_messages_py.dir/all
+.PHONY : game_controller/CMakeFiles/roscpp_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
-test/CMakeFiles/roscpp_generate_messages_py.dir/rule: cmake_check_build_system
+game_controller/CMakeFiles/roscpp_generate_messages_py.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/eastwind/Desktop/python_quadrotor/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/roscpp_generate_messages_py.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 game_controller/CMakeFiles/roscpp_generate_messages_py.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/eastwind/Desktop/python_quadrotor/build/CMakeFiles 0
-.PHONY : test/CMakeFiles/roscpp_generate_messages_py.dir/rule
+.PHONY : game_controller/CMakeFiles/roscpp_generate_messages_py.dir/rule
 
 # Convenience name for target.
-roscpp_generate_messages_py: test/CMakeFiles/roscpp_generate_messages_py.dir/rule
+roscpp_generate_messages_py: game_controller/CMakeFiles/roscpp_generate_messages_py.dir/rule
 
 .PHONY : roscpp_generate_messages_py
 
 # clean rule for target.
-test/CMakeFiles/roscpp_generate_messages_py.dir/clean:
-	$(MAKE) -f test/CMakeFiles/roscpp_generate_messages_py.dir/build.make test/CMakeFiles/roscpp_generate_messages_py.dir/clean
-.PHONY : test/CMakeFiles/roscpp_generate_messages_py.dir/clean
+game_controller/CMakeFiles/roscpp_generate_messages_py.dir/clean:
+	$(MAKE) -f game_controller/CMakeFiles/roscpp_generate_messages_py.dir/build.make game_controller/CMakeFiles/roscpp_generate_messages_py.dir/clean
+.PHONY : game_controller/CMakeFiles/roscpp_generate_messages_py.dir/clean
 
 # clean rule for target.
-clean: test/CMakeFiles/roscpp_generate_messages_py.dir/clean
+clean: game_controller/CMakeFiles/roscpp_generate_messages_py.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target test/CMakeFiles/roscpp_generate_messages_eus.dir
+# Target rules for target game_controller/CMakeFiles/roscpp_generate_messages_eus.dir
 
 # All Build rule for target.
-test/CMakeFiles/roscpp_generate_messages_eus.dir/all:
-	$(MAKE) -f test/CMakeFiles/roscpp_generate_messages_eus.dir/build.make test/CMakeFiles/roscpp_generate_messages_eus.dir/depend
-	$(MAKE) -f test/CMakeFiles/roscpp_generate_messages_eus.dir/build.make test/CMakeFiles/roscpp_generate_messages_eus.dir/build
+game_controller/CMakeFiles/roscpp_generate_messages_eus.dir/all:
+	$(MAKE) -f game_controller/CMakeFiles/roscpp_generate_messages_eus.dir/build.make game_controller/CMakeFiles/roscpp_generate_messages_eus.dir/depend
+	$(MAKE) -f game_controller/CMakeFiles/roscpp_generate_messages_eus.dir/build.make game_controller/CMakeFiles/roscpp_generate_messages_eus.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eastwind/Desktop/python_quadrotor/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_eus"
-.PHONY : test/CMakeFiles/roscpp_generate_messages_eus.dir/all
+.PHONY : game_controller/CMakeFiles/roscpp_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
-test/CMakeFiles/roscpp_generate_messages_eus.dir/rule: cmake_check_build_system
+game_controller/CMakeFiles/roscpp_generate_messages_eus.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/eastwind/Desktop/python_quadrotor/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/roscpp_generate_messages_eus.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 game_controller/CMakeFiles/roscpp_generate_messages_eus.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/eastwind/Desktop/python_quadrotor/build/CMakeFiles 0
-.PHONY : test/CMakeFiles/roscpp_generate_messages_eus.dir/rule
+.PHONY : game_controller/CMakeFiles/roscpp_generate_messages_eus.dir/rule
 
 # Convenience name for target.
-roscpp_generate_messages_eus: test/CMakeFiles/roscpp_generate_messages_eus.dir/rule
+roscpp_generate_messages_eus: game_controller/CMakeFiles/roscpp_generate_messages_eus.dir/rule
 
 .PHONY : roscpp_generate_messages_eus
 
 # clean rule for target.
-test/CMakeFiles/roscpp_generate_messages_eus.dir/clean:
-	$(MAKE) -f test/CMakeFiles/roscpp_generate_messages_eus.dir/build.make test/CMakeFiles/roscpp_generate_messages_eus.dir/clean
-.PHONY : test/CMakeFiles/roscpp_generate_messages_eus.dir/clean
+game_controller/CMakeFiles/roscpp_generate_messages_eus.dir/clean:
+	$(MAKE) -f game_controller/CMakeFiles/roscpp_generate_messages_eus.dir/build.make game_controller/CMakeFiles/roscpp_generate_messages_eus.dir/clean
+.PHONY : game_controller/CMakeFiles/roscpp_generate_messages_eus.dir/clean
 
 # clean rule for target.
-clean: test/CMakeFiles/roscpp_generate_messages_eus.dir/clean
+clean: game_controller/CMakeFiles/roscpp_generate_messages_eus.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target test/CMakeFiles/roscpp_generate_messages_lisp.dir
+# Target rules for target game_controller/CMakeFiles/roscpp_generate_messages_lisp.dir
 
 # All Build rule for target.
-test/CMakeFiles/roscpp_generate_messages_lisp.dir/all:
-	$(MAKE) -f test/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make test/CMakeFiles/roscpp_generate_messages_lisp.dir/depend
-	$(MAKE) -f test/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make test/CMakeFiles/roscpp_generate_messages_lisp.dir/build
+game_controller/CMakeFiles/roscpp_generate_messages_lisp.dir/all:
+	$(MAKE) -f game_controller/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make game_controller/CMakeFiles/roscpp_generate_messages_lisp.dir/depend
+	$(MAKE) -f game_controller/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make game_controller/CMakeFiles/roscpp_generate_messages_lisp.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eastwind/Desktop/python_quadrotor/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_lisp"
-.PHONY : test/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+.PHONY : game_controller/CMakeFiles/roscpp_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
-test/CMakeFiles/roscpp_generate_messages_lisp.dir/rule: cmake_check_build_system
+game_controller/CMakeFiles/roscpp_generate_messages_lisp.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/eastwind/Desktop/python_quadrotor/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 game_controller/CMakeFiles/roscpp_generate_messages_lisp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/eastwind/Desktop/python_quadrotor/build/CMakeFiles 0
-.PHONY : test/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
+.PHONY : game_controller/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
-roscpp_generate_messages_lisp: test/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
+roscpp_generate_messages_lisp: game_controller/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
 
 .PHONY : roscpp_generate_messages_lisp
 
 # clean rule for target.
-test/CMakeFiles/roscpp_generate_messages_lisp.dir/clean:
-	$(MAKE) -f test/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make test/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
-.PHONY : test/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
+game_controller/CMakeFiles/roscpp_generate_messages_lisp.dir/clean:
+	$(MAKE) -f game_controller/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make game_controller/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
+.PHONY : game_controller/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
 
 # clean rule for target.
-clean: test/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
+clean: game_controller/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target test/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir
+# Target rules for target game_controller/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir
 
 # All Build rule for target.
-test/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all:
-	$(MAKE) -f test/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make test/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/depend
-	$(MAKE) -f test/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make test/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
+game_controller/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all:
+	$(MAKE) -f game_controller/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make game_controller/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/depend
+	$(MAKE) -f game_controller/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make game_controller/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eastwind/Desktop/python_quadrotor/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_cpp"
-.PHONY : test/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+.PHONY : game_controller/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
-test/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
+game_controller/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/eastwind/Desktop/python_quadrotor/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 game_controller/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/eastwind/Desktop/python_quadrotor/build/CMakeFiles 0
-.PHONY : test/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+.PHONY : game_controller/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
-rosgraph_msgs_generate_messages_cpp: test/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+rosgraph_msgs_generate_messages_cpp: game_controller/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
 
 .PHONY : rosgraph_msgs_generate_messages_cpp
 
 # clean rule for target.
-test/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean:
-	$(MAKE) -f test/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make test/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
-.PHONY : test/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
+game_controller/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean:
+	$(MAKE) -f game_controller/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make game_controller/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
+.PHONY : game_controller/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
 
 # clean rule for target.
-clean: test/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
+clean: game_controller/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target test/CMakeFiles/std_msgs_generate_messages_lisp.dir
+# Target rules for target game_controller/CMakeFiles/std_msgs_generate_messages_lisp.dir
 
 # All Build rule for target.
-test/CMakeFiles/std_msgs_generate_messages_lisp.dir/all:
-	$(MAKE) -f test/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make test/CMakeFiles/std_msgs_generate_messages_lisp.dir/depend
-	$(MAKE) -f test/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make test/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+game_controller/CMakeFiles/std_msgs_generate_messages_lisp.dir/all:
+	$(MAKE) -f game_controller/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make game_controller/CMakeFiles/std_msgs_generate_messages_lisp.dir/depend
+	$(MAKE) -f game_controller/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make game_controller/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eastwind/Desktop/python_quadrotor/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_lisp"
-.PHONY : test/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+.PHONY : game_controller/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
-test/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
+game_controller/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/eastwind/Desktop/python_quadrotor/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 game_controller/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/eastwind/Desktop/python_quadrotor/build/CMakeFiles 0
-.PHONY : test/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+.PHONY : game_controller/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
-std_msgs_generate_messages_lisp: test/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+std_msgs_generate_messages_lisp: game_controller/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
 
 .PHONY : std_msgs_generate_messages_lisp
 
 # clean rule for target.
-test/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean:
-	$(MAKE) -f test/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make test/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
-.PHONY : test/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
+game_controller/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean:
+	$(MAKE) -f game_controller/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make game_controller/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
+.PHONY : game_controller/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
 
 # clean rule for target.
-clean: test/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
+clean: game_controller/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target test/CMakeFiles/roscpp_generate_messages_cpp.dir
+# Target rules for target game_controller/CMakeFiles/roscpp_generate_messages_cpp.dir
 
 # All Build rule for target.
-test/CMakeFiles/roscpp_generate_messages_cpp.dir/all:
-	$(MAKE) -f test/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make test/CMakeFiles/roscpp_generate_messages_cpp.dir/depend
-	$(MAKE) -f test/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make test/CMakeFiles/roscpp_generate_messages_cpp.dir/build
+game_controller/CMakeFiles/roscpp_generate_messages_cpp.dir/all:
+	$(MAKE) -f game_controller/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make game_controller/CMakeFiles/roscpp_generate_messages_cpp.dir/depend
+	$(MAKE) -f game_controller/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make game_controller/CMakeFiles/roscpp_generate_messages_cpp.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eastwind/Desktop/python_quadrotor/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_cpp"
-.PHONY : test/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+.PHONY : game_controller/CMakeFiles/roscpp_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
-test/CMakeFiles/roscpp_generate_messages_cpp.dir/rule: cmake_check_build_system
+game_controller/CMakeFiles/roscpp_generate_messages_cpp.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/eastwind/Desktop/python_quadrotor/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 game_controller/CMakeFiles/roscpp_generate_messages_cpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/eastwind/Desktop/python_quadrotor/build/CMakeFiles 0
-.PHONY : test/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+.PHONY : game_controller/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
-roscpp_generate_messages_cpp: test/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+roscpp_generate_messages_cpp: game_controller/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
 
 .PHONY : roscpp_generate_messages_cpp
 
 # clean rule for target.
-test/CMakeFiles/roscpp_generate_messages_cpp.dir/clean:
-	$(MAKE) -f test/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make test/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
-.PHONY : test/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
+game_controller/CMakeFiles/roscpp_generate_messages_cpp.dir/clean:
+	$(MAKE) -f game_controller/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make game_controller/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
+.PHONY : game_controller/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
 
 # clean rule for target.
-clean: test/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
+clean: game_controller/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target test/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir
+# Target rules for target game_controller/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir
 
 # All Build rule for target.
-test/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all:
-	$(MAKE) -f test/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make test/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/depend
-	$(MAKE) -f test/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make test/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
+game_controller/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all:
+	$(MAKE) -f game_controller/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make game_controller/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/depend
+	$(MAKE) -f game_controller/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make game_controller/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eastwind/Desktop/python_quadrotor/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_eus"
-.PHONY : test/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+.PHONY : game_controller/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
-test/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
+game_controller/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/eastwind/Desktop/python_quadrotor/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 game_controller/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/eastwind/Desktop/python_quadrotor/build/CMakeFiles 0
-.PHONY : test/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
+.PHONY : game_controller/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
-rosgraph_msgs_generate_messages_eus: test/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
+rosgraph_msgs_generate_messages_eus: game_controller/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
 
 .PHONY : rosgraph_msgs_generate_messages_eus
 
 # clean rule for target.
-test/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean:
-	$(MAKE) -f test/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make test/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
-.PHONY : test/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
+game_controller/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean:
+	$(MAKE) -f game_controller/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make game_controller/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
+.PHONY : game_controller/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
 
 # clean rule for target.
-clean: test/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
+clean: game_controller/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target test/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir
+# Target rules for target game_controller/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir
 
 # All Build rule for target.
-test/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all:
-	$(MAKE) -f test/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make test/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/depend
-	$(MAKE) -f test/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make test/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
+game_controller/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all:
+	$(MAKE) -f game_controller/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make game_controller/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/depend
+	$(MAKE) -f game_controller/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make game_controller/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eastwind/Desktop/python_quadrotor/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_lisp"
-.PHONY : test/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+.PHONY : game_controller/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
-test/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
+game_controller/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/eastwind/Desktop/python_quadrotor/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 game_controller/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/eastwind/Desktop/python_quadrotor/build/CMakeFiles 0
-.PHONY : test/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
+.PHONY : game_controller/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
-rosgraph_msgs_generate_messages_lisp: test/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
+rosgraph_msgs_generate_messages_lisp: game_controller/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
 
 .PHONY : rosgraph_msgs_generate_messages_lisp
 
 # clean rule for target.
-test/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean:
-	$(MAKE) -f test/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make test/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
-.PHONY : test/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
+game_controller/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean:
+	$(MAKE) -f game_controller/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make game_controller/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
+.PHONY : game_controller/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
 
 # clean rule for target.
-clean: test/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
+clean: game_controller/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target test/CMakeFiles/std_msgs_generate_messages_cpp.dir
+# Target rules for target game_controller/CMakeFiles/std_msgs_generate_messages_cpp.dir
 
 # All Build rule for target.
-test/CMakeFiles/std_msgs_generate_messages_cpp.dir/all:
-	$(MAKE) -f test/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make test/CMakeFiles/std_msgs_generate_messages_cpp.dir/depend
-	$(MAKE) -f test/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make test/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
+game_controller/CMakeFiles/std_msgs_generate_messages_cpp.dir/all:
+	$(MAKE) -f game_controller/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make game_controller/CMakeFiles/std_msgs_generate_messages_cpp.dir/depend
+	$(MAKE) -f game_controller/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make game_controller/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eastwind/Desktop/python_quadrotor/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_cpp"
-.PHONY : test/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+.PHONY : game_controller/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
-test/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
+game_controller/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/eastwind/Desktop/python_quadrotor/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 game_controller/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/eastwind/Desktop/python_quadrotor/build/CMakeFiles 0
-.PHONY : test/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
+.PHONY : game_controller/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
-std_msgs_generate_messages_cpp: test/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
+std_msgs_generate_messages_cpp: game_controller/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
 
 .PHONY : std_msgs_generate_messages_cpp
 
 # clean rule for target.
-test/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean:
-	$(MAKE) -f test/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make test/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
-.PHONY : test/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
+game_controller/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean:
+	$(MAKE) -f game_controller/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make game_controller/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
+.PHONY : game_controller/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
 
 # clean rule for target.
-clean: test/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
+clean: game_controller/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target test/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir
+# Target rules for target game_controller/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir
 
 # All Build rule for target.
-test/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all:
-	$(MAKE) -f test/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make test/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/depend
-	$(MAKE) -f test/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make test/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
+game_controller/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all:
+	$(MAKE) -f game_controller/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make game_controller/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/depend
+	$(MAKE) -f game_controller/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make game_controller/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eastwind/Desktop/python_quadrotor/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_nodejs"
-.PHONY : test/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+.PHONY : game_controller/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
-test/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
+game_controller/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/eastwind/Desktop/python_quadrotor/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 game_controller/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/eastwind/Desktop/python_quadrotor/build/CMakeFiles 0
-.PHONY : test/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
+.PHONY : game_controller/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
-rosgraph_msgs_generate_messages_nodejs: test/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
+rosgraph_msgs_generate_messages_nodejs: game_controller/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
 
 .PHONY : rosgraph_msgs_generate_messages_nodejs
 
 # clean rule for target.
-test/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean:
-	$(MAKE) -f test/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make test/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
-.PHONY : test/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
+game_controller/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean:
+	$(MAKE) -f game_controller/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make game_controller/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
+.PHONY : game_controller/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
 
 # clean rule for target.
-clean: test/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
+clean: game_controller/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target test/CMakeFiles/rosgraph_msgs_generate_messages_py.dir
+# Target rules for target game_controller/CMakeFiles/rosgraph_msgs_generate_messages_py.dir
 
 # All Build rule for target.
-test/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all:
-	$(MAKE) -f test/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make test/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/depend
-	$(MAKE) -f test/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make test/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
+game_controller/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all:
+	$(MAKE) -f game_controller/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make game_controller/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/depend
+	$(MAKE) -f game_controller/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make game_controller/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eastwind/Desktop/python_quadrotor/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_py"
-.PHONY : test/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+.PHONY : game_controller/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
-test/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule: cmake_check_build_system
+game_controller/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/eastwind/Desktop/python_quadrotor/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 game_controller/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/eastwind/Desktop/python_quadrotor/build/CMakeFiles 0
-.PHONY : test/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
+.PHONY : game_controller/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
-rosgraph_msgs_generate_messages_py: test/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
+rosgraph_msgs_generate_messages_py: game_controller/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
 
 .PHONY : rosgraph_msgs_generate_messages_py
 
 # clean rule for target.
-test/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean:
-	$(MAKE) -f test/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make test/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
-.PHONY : test/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
+game_controller/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean:
+	$(MAKE) -f game_controller/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make game_controller/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
+.PHONY : game_controller/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
 
 # clean rule for target.
-clean: test/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
+clean: game_controller/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target test/CMakeFiles/std_msgs_generate_messages_eus.dir
+# Target rules for target game_controller/CMakeFiles/std_msgs_generate_messages_eus.dir
 
 # All Build rule for target.
-test/CMakeFiles/std_msgs_generate_messages_eus.dir/all:
-	$(MAKE) -f test/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make test/CMakeFiles/std_msgs_generate_messages_eus.dir/depend
-	$(MAKE) -f test/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make test/CMakeFiles/std_msgs_generate_messages_eus.dir/build
+game_controller/CMakeFiles/std_msgs_generate_messages_eus.dir/all:
+	$(MAKE) -f game_controller/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make game_controller/CMakeFiles/std_msgs_generate_messages_eus.dir/depend
+	$(MAKE) -f game_controller/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make game_controller/CMakeFiles/std_msgs_generate_messages_eus.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eastwind/Desktop/python_quadrotor/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_eus"
-.PHONY : test/CMakeFiles/std_msgs_generate_messages_eus.dir/all
+.PHONY : game_controller/CMakeFiles/std_msgs_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
-test/CMakeFiles/std_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
+game_controller/CMakeFiles/std_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/eastwind/Desktop/python_quadrotor/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/std_msgs_generate_messages_eus.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 game_controller/CMakeFiles/std_msgs_generate_messages_eus.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/eastwind/Desktop/python_quadrotor/build/CMakeFiles 0
-.PHONY : test/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
+.PHONY : game_controller/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
-std_msgs_generate_messages_eus: test/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
+std_msgs_generate_messages_eus: game_controller/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
 
 .PHONY : std_msgs_generate_messages_eus
 
 # clean rule for target.
-test/CMakeFiles/std_msgs_generate_messages_eus.dir/clean:
-	$(MAKE) -f test/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make test/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
-.PHONY : test/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
+game_controller/CMakeFiles/std_msgs_generate_messages_eus.dir/clean:
+	$(MAKE) -f game_controller/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make game_controller/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
+.PHONY : game_controller/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
 
 # clean rule for target.
-clean: test/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
+clean: game_controller/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target test/CMakeFiles/std_msgs_generate_messages_nodejs.dir
+# Target rules for target game_controller/CMakeFiles/std_msgs_generate_messages_nodejs.dir
 
 # All Build rule for target.
-test/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all:
-	$(MAKE) -f test/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make test/CMakeFiles/std_msgs_generate_messages_nodejs.dir/depend
-	$(MAKE) -f test/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make test/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
+game_controller/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all:
+	$(MAKE) -f game_controller/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make game_controller/CMakeFiles/std_msgs_generate_messages_nodejs.dir/depend
+	$(MAKE) -f game_controller/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make game_controller/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eastwind/Desktop/python_quadrotor/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_nodejs"
-.PHONY : test/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+.PHONY : game_controller/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
-test/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
+game_controller/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/eastwind/Desktop/python_quadrotor/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 game_controller/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/eastwind/Desktop/python_quadrotor/build/CMakeFiles 0
-.PHONY : test/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
+.PHONY : game_controller/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
-std_msgs_generate_messages_nodejs: test/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
+std_msgs_generate_messages_nodejs: game_controller/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
 
 .PHONY : std_msgs_generate_messages_nodejs
 
 # clean rule for target.
-test/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean:
-	$(MAKE) -f test/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make test/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
-.PHONY : test/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
+game_controller/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean:
+	$(MAKE) -f game_controller/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make game_controller/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
+.PHONY : game_controller/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
 
 # clean rule for target.
-clean: test/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
+clean: game_controller/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target test/CMakeFiles/roscpp_generate_messages_nodejs.dir
+# Target rules for target game_controller/CMakeFiles/roscpp_generate_messages_nodejs.dir
 
 # All Build rule for target.
-test/CMakeFiles/roscpp_generate_messages_nodejs.dir/all:
-	$(MAKE) -f test/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make test/CMakeFiles/roscpp_generate_messages_nodejs.dir/depend
-	$(MAKE) -f test/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make test/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
+game_controller/CMakeFiles/roscpp_generate_messages_nodejs.dir/all:
+	$(MAKE) -f game_controller/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make game_controller/CMakeFiles/roscpp_generate_messages_nodejs.dir/depend
+	$(MAKE) -f game_controller/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make game_controller/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eastwind/Desktop/python_quadrotor/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_nodejs"
-.PHONY : test/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+.PHONY : game_controller/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
-test/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule: cmake_check_build_system
+game_controller/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/eastwind/Desktop/python_quadrotor/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 game_controller/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/eastwind/Desktop/python_quadrotor/build/CMakeFiles 0
-.PHONY : test/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
+.PHONY : game_controller/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
-roscpp_generate_messages_nodejs: test/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
+roscpp_generate_messages_nodejs: game_controller/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
 
 .PHONY : roscpp_generate_messages_nodejs
 
 # clean rule for target.
-test/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean:
-	$(MAKE) -f test/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make test/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
-.PHONY : test/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
+game_controller/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean:
+	$(MAKE) -f game_controller/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make game_controller/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
+.PHONY : game_controller/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
 
 # clean rule for target.
-clean: test/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
+clean: game_controller/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target test/CMakeFiles/std_msgs_generate_messages_py.dir
+# Target rules for target game_controller/CMakeFiles/std_msgs_generate_messages_py.dir
 
 # All Build rule for target.
-test/CMakeFiles/std_msgs_generate_messages_py.dir/all:
-	$(MAKE) -f test/CMakeFiles/std_msgs_generate_messages_py.dir/build.make test/CMakeFiles/std_msgs_generate_messages_py.dir/depend
-	$(MAKE) -f test/CMakeFiles/std_msgs_generate_messages_py.dir/build.make test/CMakeFiles/std_msgs_generate_messages_py.dir/build
+game_controller/CMakeFiles/std_msgs_generate_messages_py.dir/all:
+	$(MAKE) -f game_controller/CMakeFiles/std_msgs_generate_messages_py.dir/build.make game_controller/CMakeFiles/std_msgs_generate_messages_py.dir/depend
+	$(MAKE) -f game_controller/CMakeFiles/std_msgs_generate_messages_py.dir/build.make game_controller/CMakeFiles/std_msgs_generate_messages_py.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eastwind/Desktop/python_quadrotor/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_py"
-.PHONY : test/CMakeFiles/std_msgs_generate_messages_py.dir/all
+.PHONY : game_controller/CMakeFiles/std_msgs_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
-test/CMakeFiles/std_msgs_generate_messages_py.dir/rule: cmake_check_build_system
+game_controller/CMakeFiles/std_msgs_generate_messages_py.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/eastwind/Desktop/python_quadrotor/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/std_msgs_generate_messages_py.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 game_controller/CMakeFiles/std_msgs_generate_messages_py.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/eastwind/Desktop/python_quadrotor/build/CMakeFiles 0
-.PHONY : test/CMakeFiles/std_msgs_generate_messages_py.dir/rule
+.PHONY : game_controller/CMakeFiles/std_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
-std_msgs_generate_messages_py: test/CMakeFiles/std_msgs_generate_messages_py.dir/rule
+std_msgs_generate_messages_py: game_controller/CMakeFiles/std_msgs_generate_messages_py.dir/rule
 
 .PHONY : std_msgs_generate_messages_py
 
 # clean rule for target.
-test/CMakeFiles/std_msgs_generate_messages_py.dir/clean:
-	$(MAKE) -f test/CMakeFiles/std_msgs_generate_messages_py.dir/build.make test/CMakeFiles/std_msgs_generate_messages_py.dir/clean
-.PHONY : test/CMakeFiles/std_msgs_generate_messages_py.dir/clean
+game_controller/CMakeFiles/std_msgs_generate_messages_py.dir/clean:
+	$(MAKE) -f game_controller/CMakeFiles/std_msgs_generate_messages_py.dir/build.make game_controller/CMakeFiles/std_msgs_generate_messages_py.dir/clean
+.PHONY : game_controller/CMakeFiles/std_msgs_generate_messages_py.dir/clean
 
 # clean rule for target.
-clean: test/CMakeFiles/std_msgs_generate_messages_py.dir/clean
+clean: game_controller/CMakeFiles/std_msgs_generate_messages_py.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory hardware_interface
+
+# Convenience name for "all" pass in the directory.
+hardware_interface/all:
+
+.PHONY : hardware_interface/all
+
+# Convenience name for "clean" pass in the directory.
+hardware_interface/clean:
+
+.PHONY : hardware_interface/clean
+
+# Convenience name for "preinstall" pass in the directory.
+hardware_interface/preinstall:
+
+.PHONY : hardware_interface/preinstall
 
 #=============================================================================
 # Special targets to cleanup operation of make.

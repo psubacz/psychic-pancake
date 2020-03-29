@@ -291,6 +291,12 @@ catkin_DIR:PATH=/opt/ros/melodic/share/catkin/cmake
 cpp_common_DIR:PATH=/opt/ros/melodic/share/cpp_common/cmake
 
 //Value Computed by CMake
+game_controller_BINARY_DIR:STATIC=/home/eastwind/Desktop/python_quadrotor/build/game_controller
+
+//Value Computed by CMake
+game_controller_SOURCE_DIR:STATIC=/home/eastwind/Desktop/python_quadrotor/src/game_controller
+
+//Value Computed by CMake
 gmock_BINARY_DIR:STATIC=/home/eastwind/Desktop/python_quadrotor/build/gtest/googlemock
 
 //Dependencies for the target
@@ -339,6 +345,12 @@ gtest_hide_internal_symbols:BOOL=OFF
 //Dependencies for the target
 gtest_main_LIB_DEPENDS:STATIC=general;-lpthread;general;gtest;
 
+//Value Computed by CMake
+hardware_interface_BINARY_DIR:STATIC=/home/eastwind/Desktop/python_quadrotor/build/hardware_interface
+
+//Value Computed by CMake
+hardware_interface_SOURCE_DIR:STATIC=/home/eastwind/Desktop/python_quadrotor/src/hardware_interface
+
 //Path to a library.
 lib:FILEPATH=/opt/ros/melodic/lib/libxmlrpcpp.so
 
@@ -370,10 +382,22 @@ rostime_DIR:PATH=/opt/ros/melodic/share/rostime/cmake
 std_msgs_DIR:PATH=/opt/ros/melodic/share/std_msgs/cmake
 
 //Value Computed by CMake
+test1_BINARY_DIR:STATIC=/home/eastwind/Desktop/python_quadrotor/build/test1
+
+//Value Computed by CMake
+test1_SOURCE_DIR:STATIC=/home/eastwind/Desktop/python_quadrotor/src/test1
+
+//Value Computed by CMake
 test_BINARY_DIR:STATIC=/home/eastwind/Desktop/python_quadrotor/build/test
 
 //Value Computed by CMake
 test_SOURCE_DIR:STATIC=/home/eastwind/Desktop/python_quadrotor/src/test
+
+//Value Computed by CMake
+test_package_BINARY_DIR:STATIC=/home/eastwind/Desktop/python_quadrotor/build/test_package
+
+//Value Computed by CMake
+test_package_SOURCE_DIR:STATIC=/home/eastwind/Desktop/python_quadrotor/src/test_package
 
 //The directory containing a CMake configuration file for xmlrpcpp.
 xmlrpcpp_DIR:PATH=/opt/ros/melodic/share/xmlrpcpp/cmake
@@ -488,7 +512,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=5
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=6
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

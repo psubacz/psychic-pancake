@@ -3,18 +3,18 @@
 import rospy
 from std_msgs.msg import String
 
-def talker():
+def hi_talker():
     pub = rospy.Publisher('hardware_interface', String, queue_size=10)
     rospy.init_node('hardware_interface', anonymous=True)
-    rate = rospy.Rate(10) # 10hz
+    rate = rospy.Rate(1) # 10hz
     while not rospy.is_shutdown():
-        hello_str = "hello world %s" % rospy.get_time()
+        hello_str = "tic %s" % rospy.get_time()
         rospy.loginfo(hello_str)
         pub.publish(hello_str)
         rate.sleep()
 
 if __name__ == '__main__':
     try:
-        talker()
+        hi_talker()
     except rospy.ROSInterruptException:
         pass

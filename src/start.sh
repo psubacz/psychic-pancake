@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
-export TURTLEBOT_3D_SENSOR=kinect
+source devel/setup.bash 
 
-# start up the roslaunch
-roslaunch entertrainer_test entertrainer_test.launch
+
